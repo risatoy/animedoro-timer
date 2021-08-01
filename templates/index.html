@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMEDORO Timer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div class="header">
+        <a href="/"><h1 class="header_logo">ANIMEDORO Timer</h1></a>
+    </div>
+    <main class="main">
+        <h2 class="heading">Setup</h2>
+
+        <form class="form" method="post" action="">
+            <label class="form_label" for="study">Study:</label>
+            <input class="form_input" id="study" name="study" type="number" value="60">
+            <span class="units">(minutes)</span>
+            
+            <label class="form_label" for="rest">Break:</label>
+            <input class="form_input" id="rest" name="rest" type="number" value="25">
+            <span class="units">(minutes)</span>
+
+            <label class="form_label" for="sets">Sets:</label>
+            <input class="form_input" id="sets" name="sets" type="number" value="3">
+
+            <div class="form_button-container">
+                <button class="button" type="submit">Start!</button>
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
