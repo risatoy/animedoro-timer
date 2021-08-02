@@ -1,33 +1,21 @@
 html {
-    font-family: "Lato", Helverica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    box-sizing: border-box;
-    max-width: 600px;
-    margin: 0 auto;
+nav {
+    background-color: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    min-height: 3rem;
 }
 
-a {
+nav a {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 .u-center-text {
     display: block;
     text-align: center;
-}
-
-.header {
-    background-color: #1c2023;
-    font-weight: bold;
-    color: white;
-    padding: 0.5rem 2rem;
-    margin-bottom: 1.75rem;
-}
-
-.header_logo {
-    font-size: 1rem;
 }
 
 .heading {
@@ -50,10 +38,6 @@ a {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 0.75rem;
-}
-
-.main {
-    padding: 0 1.25rem;
 }
 
 .form {
@@ -89,16 +73,7 @@ a {
 }
 
 .button {
-    font-size: 1.2rem;
-    padding: 10px 30px;
-    border: 1px solid #1c2023;
-    background-color: #98d4ff;
-    cursor: pointer;
-    transition: background-color 0.1s ease-in-out;
-}
-
-.button:hover {
-    background-color: #75bdf1;
+    width: 10rem;
 }
 
 .progress {
